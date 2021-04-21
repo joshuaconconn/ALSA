@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/relative_border">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/name"
+        android:padding="10dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:text="@string/add_exercise"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Spinner
+        android:id="@+id/part"
+        android:layout_below="@id/name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        />
+        <TextView
+            android:id="@+id/warning"
+            android:padding="10dp"
+            android:textSize="10sp"
+            android:layout_below="@id/part"
+            android:text="@string/add_exercise"
+            android:layout_gravity="center"
+            android:textColor="@color/red"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    <Spinner
+        android:id="@+id/exerName"
+        android:layout_below="@id/warning"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        />
+    <Spinner
+        android:id="@+id/exerName1"
+        android:layout_below="@id/warning"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        />
+        <Spinner
+            android:id="@+id/exerName2"
+            android:layout_below="@id/warning"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            />
+
+        <TextView
+            android:id="@+id/warning1"
+            android:padding="10dp"
+            android:textSize="10sp"
+            android:layout_below="@id/exerName1"
+            android:layout_gravity="center"
+            android:textColor="@color/red"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/set"
+        android:layout_below="@id/warning1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/add_set"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/reps"
+        android:layout_below="@id/set"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/add_reps"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/weight"
+        android:layout_below="@id/reps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/add_weight"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:textSize="18sp" />
+    <Button
+        android:id="@+id/addExer"
+        android:layout_below="@id/weight"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="@string/add"
+        />
+    </RelativeLayout>
+
+</LinearLayout>

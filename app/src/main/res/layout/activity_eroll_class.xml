@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.EnrollClass"
+    android:background="@color/dirt"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/ins"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:text="Enroll Program"
+        android:textColor="@color/blue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:id="@+id/eh"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:textColor="@color/blue"
+        android:text="@string/training"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/reg"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:background="@drawable/spinnerback"
+
+        />
+    <TextView
+        android:id="@+id/ehe"
+        android:textSize="16sp"
+        android:text="@string/level"
+        android:textColor="@color/blue"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:background="@drawable/spinnerback"
+        android:hint="@string/reg" />
+    <TextView
+        android:id="@+id/h"
+        android:textSize="16sp"
+        android:text="@string/rest_day"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:textColor="@color/blue"
+        android:layout_height="wrap_content"
+        />
+
+    <Spinner
+        android:id="@+id/restday"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:background="@drawable/spinnerback"
+        android:hint="@string/reg" />
+    <TextView
+        android:textColor="@color/blue"
+        android:id="@+id/hh"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:text="@string/choose_specific_day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <Spinner
+        android:id="@+id/restday1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/reg"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:background="@drawable/spinnerback"/>
+    <Spinner
+        android:id="@+id/restday2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/reg"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:background="@drawable/spinnerback"/>
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:text="@string/enroll"
+        android:background="@drawable/relative_border"
+
+
+         />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cancel"
+        android:background="@drawable/relative_border"
+        />
+    <TextView
+        android:id="@+id/hide"
+        android:visibility="invisible"
+        android:textSize="16dp"
+        android:layout_below="@+id/button"
+        android:text="@string/training"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:id="@+id/hide2"
+        android:visibility="invisible"
+        android:textSize="16dp"
+        android:layout_below="@+id/hide"
+        android:text="@string/training"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>

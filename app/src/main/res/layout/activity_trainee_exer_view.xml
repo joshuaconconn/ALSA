@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dirt">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/id"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:text="@string/name"
+            android:textSize="25sp"
+            android:textColor="@color/blue"/>
+        <TextView
+            android:id="@+id/id2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/long_press_to_view_exercise_tutorial"
+            android:layout_below="@+id/id"
+            android:textSize="14sp"
+            android:textColor="@color/blue"/>
+
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:text="@string/back"
+            android:background="@drawable/relative_border"
+            />
+        <Button
+            android:id="@+id/bmi"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/button3"
+            android:text="@string/bmi"
+            android:background="@drawable/relative_border"
+            android:layout_marginTop="10dp"
+            />
+        <androidx.recyclerview.widget.RecyclerView
+            android:id = "@+id/recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bmi"
+            />
+
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

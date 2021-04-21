@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.CreateWorkOutProg"
+    android:background="@color/dirt"
+   >
+
+    <Button
+        android:id="@+id/create"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:text="@string/create"
+        android:background="@drawable/relative_border"/>
+    <TextView
+        android:id="@+id/id2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/long_press_on_the_item_to_see_options"
+        android:layout_below="@+id/create"
+        android:textSize="15sp"
+        android:textColor="@color/blue"/>
+    <Button
+        android:id="@+id/back"
+        android:layout_width="75dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:text="@string/back"
+        android:background="@drawable/relative_border"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="690dp"
+        android:layout_below="@id/id2"
+        android:layout_marginTop="10dp"
+        />
+
+</RelativeLayout>

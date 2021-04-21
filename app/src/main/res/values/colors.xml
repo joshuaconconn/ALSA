@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#F3EEE9</color>
+    <color name="colorAccent">#053267</color>
+    <color name="red">#D60000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="bback">#00adb5</color>
+    <color name="bbback">#4864e6</color>
+    <color name="button">#0F5C80</color>
+    <color name="forWhite">#B1B3B6</color>
+
+    <color name="dirt">#F3EEE9</color>
+    <color name="blue">#053267</color>
+    <color name="light">#d0ccc7</color>
+    <color name="dark">#6F6D6D</color>
+
+
+
+</resources>

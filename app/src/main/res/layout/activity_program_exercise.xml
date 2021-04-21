@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.ProgramExercise"
+    android:background="@color/dirt">
+    <TextView
+        android:id="@+id/name"
+        android:padding="10dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:text="@string/add_exercise"
+        android:layout_gravity="center"
+        android:textColor="@color/blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/id2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/long_press_on_exercise_to_see_options"
+        android:layout_below="@+id/name"
+        android:textSize="15sp"
+        android:textColor="@color/blue"/>
+    <Button
+        android:id="@+id/backTrainee"
+        android:layout_width="75dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/relative_border"
+        android:text="@string/back"
+        />
+
+    <Button
+        android:id="@+id/add"
+        android:padding="10dp"
+        android:layout_below="@id/id2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/relative_border"
+        android:text="@string/addExer"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/add"
+        android:layout_marginTop="10dp" />
+
+
+</RelativeLayout>

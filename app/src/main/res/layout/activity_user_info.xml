@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.UserInfo"
+    android:orientation="vertical"
+    android:background="@color/dirt">
+
+    <RelativeLayout
+        android:background="@drawable/relative_border"
+        android:layout_width="match_parent"
+        android:layout_height="107dp"
+        android:id="@+id/rel"
+        android:layout_marginBottom="10dp"
+        >
+
+        <TextView
+            android:id="@+id/profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/profile"
+            android:textSize="25sp" />
+        <Button
+            android:id="@+id/back"
+            android:layout_width="75dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:text="@string/back"
+            />
+
+        <TextView
+            android:id="@+id/name2"
+            android:layout_below="@id/profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/name"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/name3"
+            android:textSize="20sp"
+            android:layout_below="@id/name2"
+            android:text="@string/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:background="@drawable/relative_border"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp">
+        <Button
+            android:id="@+id/bmiupdate"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:text="@string/add_bmi_report"
+
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/bmiView"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:layout_below="@id/bmiupdate"
+            />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:background="@drawable/relative_border"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp">
+        <Button
+            android:id="@+id/injury"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:text="@string/add_injury_report"
+            />
+        <TextView
+            android:id="@+id/id2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/long_press_injury_to_update_status"
+            android:layout_below="@+id/injury"
+            android:textSize="15sp"
+            android:gravity="center"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/injuryView"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:layout_below="@id/id2"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.ClassList"
+    android:background="@color/dirt">
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/trainee_list"
+        android:textSize="30sp"
+        android:textColor="@color/blue"/>
+    <TextView
+        android:id="@+id/id2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Long Press the Trainee to open Personal Timeline"
+        android:layout_below="@+id/id"
+        android:textSize="15sp"
+        android:textColor="@color/blue"/>
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="75dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/relative_border"
+        android:text="@string/back"
+        android:layout_alignParentEnd="true" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/id2"
+        android:layout_marginTop="10dp" />
+
+</RelativeLayout>

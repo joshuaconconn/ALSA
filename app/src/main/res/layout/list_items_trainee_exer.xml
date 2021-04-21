@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:clickable="true"
+    android:focusable="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="10dp"
+    android:id="@+id/linear_layout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/relative_border"
+    android:layout_marginTop="2dp"
+    android:layout_marginBottom="2dp"
+    android:layout_marginRight="2dp"
+    android:layout_marginLeft="2dp">
+
+    <TextView
+        android:id="@+id/part"
+        android:textSize="18sp"
+        android:text="@string/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_toRightOf="@+id/part"
+        android:layout_toEndOf="@+id/part"
+        android:layout_height="wrap_content"
+        android:text="@string/email"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/alt"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/name"
+        android:layout_height="wrap_content"
+        android:text="@string/email"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/set"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/alt"
+        android:layout_height="wrap_content"
+        android:text="@string/email"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/reps"
+        android:textSize="18sp"
+        android:text="@string/name"
+        android:layout_toRightOf="@+id/set"
+        android:layout_toEndOf="@+id/set"
+        android:layout_below="@+id/alt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/weight"
+        android:textSize="18sp"
+        android:text="@string/name"
+        android:layout_toRightOf="@+id/reps"
+        android:layout_toEndOf="@+id/reps"
+        android:layout_below="@+id/alt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/part"
+        />
+
+
+</RelativeLayout>
+
+

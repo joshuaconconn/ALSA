@@ -1,0 +1,157 @@
+<resources>
+    <string name="app_name">ALSA</string>
+    <string name="register">Register</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>Ω
+    <string name="password">Password</string>
+    <string name="conpass">Confirm Password</string>
+    <string name="todo">TODO</string>
+    <string name="reg">Register As</string>
+    <string name="login">Login</string>
+    <string name="ready">Not yet Registered? Register Here!</string>
+    <string name="already">Already Registered? Login Here!</string>
+    <string name="Logout">Logout</string>
+    <string name="choose">Choose your Instructor</string>
+    <string name="training">Choose Training Type</string>
+    <string name="enroll">Enroll Now</string>
+    <string name="cancel">Cancel</string>
+    <string name="rest">Rest day(Eg. Monday, Tuesday)</string>
+    <string name="request">Trainee Request</string>
+    <string name="waiting">Waiting For your Coach Approval</string>
+    <string name="showClass">My Exercise</string>
+    <string name="profile">My Profile                           </string>
+    <string name="Trainee">Trainee</string>
+    <string name="bmi">BMI Update</string>
+    <string name="weight_in_kg">Weight in kg</string>
+    <string name="up_to_date">Update</string>
+    <string name="instructor">Instructor</string>
+    <string name="create">Create</string>
+    <string name="program_name">Program Name</string>
+    <string name="level">Program Level</string>
+    <string name="add_injury_report">Add Injury Report</string>
+    <string name="name_of_injury">Name of injury</string>
+    <string name="height_in_cm">Height in cm</string>
+    <string name="add_exercise">Add Exercise</string>
+    <string name="add_set">Add Set</string>
+    <string name="add_reps">Add Reps</string>
+    <string name="add_weight">Add Weight in kg</string>
+    <string name="addExer">Add Exercise</string>
+    <string name="close">Close</string>
+    <string name="back">Back</string>
+    <string name="zzz">Edit Exercise</string>
+    <string name="save">Save</string>
+    <string name="personal_workout">Personal Workout</string>
+    <string name="copy_exercise">Copy Exercise</string>
+    <string name="copy_exercise_to">Copy Exercise To</string>
+    <string name="rest_day">Rest Day</string>
+    <string name="choose_specific_day">Choose Specific Day</string>
+    <string name="add_bmi_update">Add BMI update</string>
+    <string name="bmi_updates">Bmi Updates</string>
+    <string name="choose_instructor">Choose Instructor</string>
+    <string name="add_bmi_report">Add BMI Report</string>
+    <string name="accept_trainee_request">Accept Trainee Request</string>
+    <string name="get_from_my_exercise">Get From My Exercise</string>
+    <string name="create_work_out_program">Create Work Out Program</string>
+    <string name="update_injury_report">Update Injury Report</string>
+    <string name="long_press_your_desired_coach">Long Press Your Desired Coach</string>
+    <string name="long_press_the_item_to_see_options">Long Press the Trainee to see Options</string>
+    <string name="trainee_list">Trainee List</string>
+    <string name="long_press_on_the_item_to_see_options">Long Press on the Program Name to see Options</string>
+    <string name="my_exercises">My Exercises</string>
+    <string name="long_press_to_see_options">Long Press to see options</string>
+    <string name="long_press_to_view_exercise_tutorial">Long Press Exercise to View Exercise Tutorial</string>
+    <string name="long_press_injury_to_update_status">Long Press Injury to update Status</string>
+    <string name="add">Add</string>
+
+    <string name="choose_user_type">Choose User Type</string>
+    <string name="click_on_the_date_the_see_your_daily_activity">Click on the date the see your Daily Activity</string>
+    <string name="long_press_on_exercise_to_see_options">Long Press on Exercise to see Options</string>
+    <string name="click_on_the_date_the_add_daily_activity">Click on the date the add Daily Activity</string>
+    <string name="end_program">End Program</string>
+
+
+    <string-array name="choice">
+        <item>Instructor</item>
+        <item>Trainee</item>
+    </string-array>
+    <string-array name="ClassType">
+        <item>Muscle Gain</item>
+        <item>Weight Loss</item>
+    </string-array>
+    <string-array name="progLevel">
+        <item>Beginner</item>
+        <item>Intermediate</item>
+        <item>Hard</item>
+        <item>Rock Hard</item>
+    </string-array>
+    <string-array name="injury">
+        <item>Recovering</item>
+        <item>Recovered</item>
+    </string-array>
+    <string-array name="bodypart">
+        <item>Upper Body</item>
+        <item>Lower Body</item>
+        <item>Cardio</item>
+    </string-array>
+    <string-array name="upper">
+        <item>Machine Inclined Chest Press</item>
+        <item>Barbell Bench Press </item>
+        <item>Dumbbell Chest Fly</item>
+        <item>Lat Pull Down</item>
+        <item>Dead Lift</item>
+        <item>Low Rows</item>
+        <item>Shoulder Press</item>
+        <item>Side Raises</item>
+        <item>EZ Bar Curls(Biceps)</item>
+        <item>Triceps Rope Extension</item>
+    </string-array>
+    <string-array name="lower">
+        <item>Barbell Squats(Squat Rack)</item>
+        <item>Leg Press(Machine)</item>
+        <item>Leg Extension(Machine)</item>
+        <item>Leg Curls(Machine)</item>
+        <item>Angled Leg Press</item>
+        <item>Inner Abduction Machine</item>
+        <item>Outer Abduction Machine</item>
+        <item>Dumbbell Lunges</item>
+        <item>Smith Machine Calf Raises</item>
+        <item>Smith Machine Squats</item>
+    </string-array>
+
+    <string-array name="cardio">
+        <item>Treadmill</item>
+        <item>Bike</item>
+    </string-array>
+
+    <string-array name="injuryPart">
+        <item>Neck</item>
+        <item>Shoulder</item>
+        <item>Chest</item>
+        <item>Ribs</item>
+        <item>Hips</item>
+        <item>Arm</item>
+        <item>Elbow</item>
+        <item>Back</item>
+        <item>Hips</item>
+        <item>Thigh(Leg)</item>
+        <item>Knees</item>
+        <item>Calf(Leg)</item>
+        <item>Ankle</item>
+    </string-array>
+    <string-array name="restdayNo">
+        <item>1</item>
+        <item>2</item>
+
+    </string-array>
+    <string-array name="restday">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+
+
+</resources>
